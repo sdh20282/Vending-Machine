@@ -110,7 +110,7 @@ function generateProductButtons() {
         productBtn.appendChild(productName);
         productBtn.appendChild(productPrice);
 
-        productImg.setAttribute('src', `/assets/images/${product.path}`);
+        productImg.setAttribute('src', `./assets/images/${product.path}`);
         productImg.setAttribute('alt', '음료 이미지입니다.')
 
         productName.classList.add('product_name');
